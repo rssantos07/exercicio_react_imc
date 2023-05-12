@@ -1,6 +1,6 @@
 import Calculo from "./components/Calculo/calculo"
 import Header from "./components/Header/header"
-import Resultado from "./components/Resultado/resultado"
+
 
 
 function App() {
@@ -10,7 +10,6 @@ function App() {
     <div>
       <Header/>
       <Calculo/>
-      <Resultado/>
       
     </div>
   )

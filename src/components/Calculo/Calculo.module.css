@@ -13,15 +13,15 @@
   margin: 0;
 }
 
-.tabela {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  padding: 40px 0 80px;
+.texto {
+  color: var(--corTexto);
+  font-size: 18px;
+  font-weight: bold;
 }
-
-.titulo {
+.resultado {
   color: #1e838d;
   margin-top: 40px;
+  
 }
 
 .imagens {

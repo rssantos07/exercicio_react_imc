@@ -45,7 +45,7 @@ const Calculo = () => {
 
         return (
             <div className="container">
-                <p>Vamos calcular sua massa corporal?</p>
+                <p className={styles.texto}>Vamos calcular sua massa corporal?</p>
                 <div className={styles.formulario}>
                     <form >
                         <label > Altura: </label>
@@ -57,14 +57,14 @@ const Calculo = () => {
                     </form>
 
                 </div>
-                <h1 className={styles.titulo}>Resultado: {imc}</h1>
+                <h3 className={styles.resultado}>Resultado: {imc}</h3>
                 <div>
-                    <img className={styles.imagens} src={imc1} alt="" />
-                    <img className={styles.imagens} src={imc2} style={{ opacity: Renderiza() === 1 ? 1 : 0.5 }} alt="" />
-                    <img className={styles.imagens} src={imc3} style={{ opacity: Renderiza() === 2 ? 1 : 0.5 }} alt="" />
-                    <img className={styles.imagens} src={imc4} style={{ opacity: Renderiza() === 3 ? 1 : 0.5 }} alt="" />
-                    <img className={styles.imagens} src={imc5} style={{ opacity: Renderiza() === 4 ? 1 : 0.5 }} alt="" />
-                    <img className={styles.imagens} src={imc6} style={{ opacity: Renderiza() === 5 ? 1 : 0.5 }} alt="" />
+                    <img className={styles.imagens} src={imc1} alt="classificaçao imc" />
+                    <img className={styles.imagens} src={imc2} style={{ opacity: Renderiza() === 1 ? 1 : 0.5 }} alt="abaixo peso" />
+                    <img className={styles.imagens} src={imc3} style={{ opacity: Renderiza() === 2 ? 1 : 0.5 }} alt="peso normal" />
+                    <img className={styles.imagens} src={imc4} style={{ opacity: Renderiza() === 3 ? 1 : 0.5 }} alt="sobrepeso" />
+                    <img className={styles.imagens} src={imc5} style={{ opacity: Renderiza() === 4 ? 1 : 0.5 }} alt="obesidade" />
+                    <img className={styles.imagens} src={imc6} style={{ opacity: Renderiza() === 5 ? 1 : 0.5 }} alt="obseidade grave" />
                 </div>
             </div>
 

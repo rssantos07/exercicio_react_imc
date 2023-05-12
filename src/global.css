@@ -19,7 +19,7 @@
 }
 
 :root {
-    --corPrincipal: #d1d1cf;
-    --corSecundaria: #111;
-    --corBorda: rgba(0,0,0,0.1);
+    --corPrincipal: #eeeeed;
+    --corTexto: #1e838d;
+
 }
