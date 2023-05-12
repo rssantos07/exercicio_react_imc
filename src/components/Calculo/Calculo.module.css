@@ -1,0 +1,34 @@
+.formulario {
+    padding: 80px;
+}
+
+.input {
+    width: 100px;
+    text-align: right;
+  }
+
+  
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.tabela {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 40px 0 80px;
+}
+
+.titulo {
+  color: #1e838d;
+  margin-top: 40px;
+}
+
+.imagens {
+ 
+  width: 120px;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
